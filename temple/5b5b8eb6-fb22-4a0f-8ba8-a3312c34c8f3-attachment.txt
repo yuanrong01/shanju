@@ -1,0 +1,22 @@
+[2020-11-17 11:47:06,257]-Log.py[line:32]-fuc:__console-INFO:----------------------------------开始执行用例--------------------------------
+[2020-11-17 11:47:06,257]-Log.py[line:32]-fuc:__console-INFO:用例编号： 4 ,用例名称： 充值成功
+[2020-11-17 11:47:06,257]-Log.py[line:32]-fuc:__console-INFO:接口请求地址---> http://10.113.248.196/api-user/v1/recharge/submit
+[2020-11-17 11:47:06,258]-Log.py[line:32]-fuc:__console-INFO:接口请求方式 ---> POST
+[2020-11-17 11:47:06,258]-Log.py[line:32]-fuc:__console-INFO:接口请求头 ---> {
+    "content-type": "application/json",
+    "token": "489e647fb6294450835f445ee95fc5f6",
+    "version": "1.3.0",
+    "device": "ios",
+    "device-id": "yuanrong-001",
+    "device-model": "iphone12",
+    "device-os-ver": "13.4.1"
+}
+[2020-11-17 11:47:06,258]-Log.py[line:32]-fuc:__console-INFO:接口请求体 data 参数---> null
+[2020-11-17 11:47:06,258]-Log.py[line:32]-fuc:__console-INFO:接口请求体 json 参数---> {
+    "priceId": 3,
+    "rechargeType": 1
+}
+[2020-11-17 11:47:06,259]-Log.py[line:32]-fuc:__console-INFO:接口请求体 params 参数---> null
+[2020-11-17 11:47:06,259]-Log.py[line:32]-fuc:__console-INFO:接口上传附件 files 参数---> None
+[2020-11-17 11:47:06,259]-Log.py[line:32]-fuc:__console-INFO:接口 cookies 参数---> null
+[2020-11-17 11:47:06,278]-Log.py[line:32]-fuc:__console-INFO:==================================返回参数 ==>> {"code":200,"msg":"SUCCESS","result":{"money":12.0,"coin":84,"addCoin":0,"outOrderNo":"2011171147053258900","prepayParam":"app_id=2021001135649914&biz_content=%7B%22timeout_express%22%3A%2290m%22%2C%22product_code%22%3A%22QUICK_MSECURITY_PAY%22%2C%22total_amount%22%3A%2212.0%22%2C%22subject%22%3A%22%E4%BA%91%E8%B6%B4%22%2C%22body%22%3A%22%E4%BA%91%E8%B6%B4%E5%85%85%E5%80%BC%22%2C%22out_trade_no%22%3A%222011171147053258900%22%2C%22passback_params%22%3A%22%7B%5C%22coin%5C%22%3A%5C%2284%5C%22%7D%22%7D&charset=UTF-8&gatewayUrl=https%3A%2F%2Fopenapi.alipay.com%2Fgateway.do&method=alipay.trade.app.pay&notify_url=http%3A%2F%2F10.113.248.196%2Fapi-user%2Frecharge%2Fnotify%2Falipay&sign=N4pZvN98nyTdPkZ64IWLaf985k7X5jw%2FcBROyQY546Egp0boJ7rhaew6B3%2F%2FJ1CC9u2UlzYXQ%2F91CSq7WhLJ0caYjAQdKJ6IAyWhSI40S883AeQqr1pS4UKEBRqt6%2F5kU%2BO3rosxkXPmbC4qioMrd6pVK3OhEXN3t9b22yOkl5Qcw3Pbb%2Fv2I9W0hSu1E3YcElb9EX%2FtRQewxL1t34ZaPEllSYmhWEMMfE9ZpNBEAtmS2oPfr2MIDsqv0f9I%2BZWZCk4GtVkSlPrup1unvljKwQM9mnnplGu110Z7ZDMQben6TIzT%2FqiBs93URH8UtOGwuVl4slpyW%2FM44DNaFu4zrQ%3D%3D&sign_type=RSA2&timestamp=2020-11-17+11%3A47%3A05&version=1.0","rechargeType":1}}

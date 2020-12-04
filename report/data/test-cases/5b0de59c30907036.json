@@ -1,0 +1,99 @@
+{
+  "uid" : "5b0de59c30907036",
+  "name" : "test_appRechargeSubmit[1-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers0-params0-expect_result0]",
+  "fullName" : "testcase.test_appRechargeSubmit.TestRechargeSubmit#test_appRechargeSubmit",
+  "historyId" : "4f1d708bf855f616a45349b131b1487c",
+  "time" : {
+    "start" : 1605517830451,
+    "stop" : 1605517830516,
+    "duration" : 65
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d22479127441c695",
+      "name" : "log",
+      "source" : "d22479127441c695.txt",
+      "type" : "text/plain",
+      "size" : 1272
+    }, {
+      "uid" : "b31e41b558e4e2e",
+      "name" : "stdout",
+      "source" : "b31e41b558e4e2e.txt",
+      "type" : "text/plain",
+      "size" : 225
+    }, {
+      "uid" : "9c76b569a42df737",
+      "name" : "stderr",
+      "source" : "9c76b569a42df737.txt",
+      "type" : "text/plain",
+      "size" : 1443
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_appRechargeSubmit"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRechargeSubmit"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GSJ6A37"
+  }, {
+    "name" : "thread",
+    "value" : "12712-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_appRechargeSubmit"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "1"
+  }, {
+    "name" : "case_name",
+    "value" : "'充值成功'"
+  }, {
+    "name" : "expect_result",
+    "value" : "{'code': 200, 'msg': 'SUCCESS', 'result': {'ces': 11}}"
+  }, {
+    "name" : "headers",
+    "value" : "{'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}"
+  }, {
+    "name" : "params",
+    "value" : "{'priceId': 1, 'rechargeType': 1}"
+  }, {
+    "name" : "url",
+    "value" : "'http://10.113.248.196/api-user/v1/recharge/submit'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5b0de59c30907036.json",
+  "parameterValues" : [ "1", "'充值成功'", "{'code': 200, 'msg': 'SUCCESS', 'result': {'ces': 11}}", "{'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}", "{'priceId': 1, 'rechargeType': 1}", "'http://10.113.248.196/api-user/v1/recharge/submit'" ]
+}

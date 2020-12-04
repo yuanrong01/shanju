@@ -1,0 +1,46 @@
+appRechargeSubmit:
+  base: &base
+    url: http://10.113.248.196/api-user/v1/recharge/submit
+    headers: {"content-type": "application/json","token":"${token}","version":"1.3.0","device": "ios","device-id": "yuanrong-001","device-model": "iphone12","device-os-ver": "13.4.1"}
+  testcase:
+    - case_id: 1
+      case_name: 充值成功
+      parameter:
+        priceId: 1
+        rechargeType: 1
+      expect_result:
+        code: 200
+        msg: SUCCESS
+        result: {"ces":11}
+      <<: *base
+
+    - case_id: 2
+      case_name: 充值成功
+      parameter:
+        priceId: 5
+        rechargeType: 1
+      expect_result:
+        code: 200
+        msg: SUCCESS
+        result: {"ces":11}
+      <<: *base
+    - case_id: 3
+      case_name: 充值成功
+      parameter:
+        priceId: 3
+        rechargeType: 1
+      expect_result:
+        code: 200
+        msg: SUCCESS
+        result: {"ces":11}
+      <<: *base
+    - case_id: 4
+      case_name: 充值成功
+      parameter:
+        priceId: 3
+        rechargeType: 1
+      expect_result:
+        code: 200
+        msg: SUCCESS
+        result: {"ces":11}
+      <<: *base

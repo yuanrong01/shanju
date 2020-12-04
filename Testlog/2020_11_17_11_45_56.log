@@ -1,0 +1,26 @@
+[2020-11-17 11:45:56,440]-Log.py[line:32]-fuc:__console-INFO:加载 D:\测试数据\接口测试\shanju\data\admin.json 文件...
+[2020-11-17 11:45:56,441]-Log.py[line:32]-fuc:__console-INFO:读取到数据---> {'body': {'phone': '15537536853', 'smsCode': '123456', 'deviceId': 'yuanrong001'}, 'expect_result': 991900} 
+[2020-11-17 11:45:56,441]-Log.py[line:32]-fuc:__console-INFO:接口请求地址---> http://10.113.248.196/api-user/v1/user/login/phone
+[2020-11-17 11:45:56,441]-Log.py[line:32]-fuc:__console-INFO:接口请求方式 ---> POST
+[2020-11-17 11:45:56,441]-Log.py[line:32]-fuc:__console-INFO:接口请求头 ---> {
+    "content-type": "application/json",
+    "version": "1.3.0",
+    "device": "ios",
+    "device-id": "yuanrong-001",
+    "device-model": "iphone12",
+    "device-os-ver": "13.4.1",
+    "token": "${token}"
+}
+[2020-11-17 11:45:56,443]-Log.py[line:32]-fuc:__console-INFO:接口请求体 data 参数---> null
+[2020-11-17 11:45:56,443]-Log.py[line:32]-fuc:__console-INFO:接口请求体 json 参数---> {
+    "phone": "15537536853",
+    "smsCode": "123456",
+    "deviceId": "yuanrong001"
+}
+[2020-11-17 11:45:56,443]-Log.py[line:32]-fuc:__console-INFO:接口请求体 params 参数---> null
+[2020-11-17 11:45:56,444]-Log.py[line:32]-fuc:__console-INFO:接口上传附件 files 参数---> None
+[2020-11-17 11:45:56,444]-Log.py[line:32]-fuc:__console-INFO:接口 cookies 参数---> null
+[2020-11-17 11:45:56,625]-Log.py[line:32]-fuc:__console-INFO:测试用例通过,返回参数 ==>> {"code":200,"msg":"SUCCESS","result":{"rongToken":"AMBabPdFQHUCkcHow5IaDdIKO+8hTVKPWKpRFmkwsBc=@ucu5.cn.rongnav.com;ucu5.cn.rongcfg.com","gender":0,"level":0,"avatar":"","userId":991900,"userCode":991900,"token":"45b192d19bb54beab0cbf1679c304b36","phone":"15537536853","showFun":1,"nickname":"吃","age":0,"isRegister":0,"status":0}}
+[2020-11-17 11:45:56,626]-Log.py[line:32]-fuc:__console-INFO:加载 D:\测试数据\接口测试\shanju\data\testdata 文件...
+[2020-11-17 11:45:56,741]-Log.py[line:32]-fuc:__console-INFO:加载 D:\测试数据\接口测试\shanju\data\user 文件...
+[2020-11-17 11:45:56,747]-Log.py[line:32]-fuc:__console-INFO:读取到数据---> {'user': {'base': {'url': 'http://10.113.248.196/api-user/v1/user/login/phone', 'headers': {'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}}, 'testcase': [{'url': 'http://10.113.248.196/api-user/v1/user/login/phone', 'headers': {'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}, 'case_id': 1, 'case_name': '验证手机号码错误，登录失败', 'parameter': {'phone': '123456', 'smsCode': '123456', 'deviceId': 'test001'}, 'expect_result': {'code': 200, 'msg': 'SUCCESS'}}, {'url': 'http://10.113.248.196/api-user/v1/user/login/phone', 'headers': {'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}, 'case_id': 2, 'case_name': '验证手机号为空，登录失败', 'parameter': {'phone': '', 'smsCode': '123456', 'deviceId': 'test001'}, 'expect_result': {'code': 500, 'msg': '服务器异常'}}, {'url': 'http://10.113.248.196/api-user/v1/user/login/phone', 'headers': {'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}, 'case_id': 3, 'case_name': '验证码错误，登录失败', 'parameter': {'phone': '12345678910', 'smsCode': '888', 'deviceId': 'test001'}, 'expect_result': {'code': 6001, 'msg': '验证码输入错误，请重新输入'}}, {'url': 'http://10.113.248.196/api-user/v1/user/login/phone', 'headers': {'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}, 'case_id': 4, 'case_name': '验证码为空，登录失败', 'parameter': {'phone': '12345678910', 'smsCode': '', 'deviceId': 'test001'}, 'expect_result': {'code': 6001, 'msg': '验证码输入错误，请重新输入'}}]}} 

@@ -1,0 +1,4 @@
+[mysql_test]
+sql = SELECT t.phone,t.birth,t.* from ju_user t WHERE t.is_destroy=0 and phone=15537536853;
+    select * from ju_user_attention where user_id=991900;
+    select * from ju_user_certification where realname='y测试01';

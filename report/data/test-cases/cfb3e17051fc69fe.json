@@ -1,0 +1,151 @@
+{
+  "uid" : "cfb3e17051fc69fe",
+  "name" : "test_login[4-验证码为空，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers3-params3-expect_result3]",
+  "fullName" : "testcase.test_user_login.TestLogin#test_login",
+  "historyId" : "7a6d25ec38795ceb8d77db08e9ce9fc2",
+  "time" : {
+    "start" : 1605584826581,
+    "stop" : 1605584826600,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9417263d1ccd64",
+      "name" : "log",
+      "source" : "9417263d1ccd64.txt",
+      "type" : "text/plain",
+      "size" : 4139
+    }, {
+      "uid" : "4b089a3663322da9",
+      "name" : "stderr",
+      "source" : "4b089a3663322da9.txt",
+      "type" : "text/plain",
+      "size" : 1523
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_user_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-GSJ6A37"
+  }, {
+    "name" : "thread",
+    "value" : "24804-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_user_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_id",
+    "value" : "4"
+  }, {
+    "name" : "case_name",
+    "value" : "'验证码为空，登录失败'"
+  }, {
+    "name" : "expect_result",
+    "value" : "{'code': 6001, 'msg': '验证码输入错误，请重新输入'}"
+  }, {
+    "name" : "headers",
+    "value" : "{'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}"
+  }, {
+    "name" : "params",
+    "value" : "{'phone': '12345678910', 'smsCode': '', 'deviceId': 'test001'}"
+  }, {
+    "name" : "url",
+    "value" : "'http://10.113.248.196/api-user/v1/user/login/phone'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "25add840028e8692",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605520814085,
+        "stop" : 1605520814102,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "264d7823ab4e3578",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605519843175,
+        "stop" : 1605519843193,
+        "duration" : 18
+      }
+    }, {
+      "uid" : "19247ee05bfcb0bc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605518059907,
+        "stop" : 1605518059924,
+        "duration" : 17
+      }
+    }, {
+      "uid" : "177df5a18dc9ac98",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605517830844,
+        "stop" : 1605517830863,
+        "duration" : 19
+      }
+    }, {
+      "uid" : "e1379068ff56ab2c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605516379497,
+        "stop" : 1605516379548,
+        "duration" : 51
+      }
+    }, {
+      "uid" : "eb73bf95c0a6610e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605516251445,
+        "stop" : 1605516251465,
+        "duration" : 20
+      }
+    }, {
+      "uid" : "f12ab8840d7d8d08",
+      "status" : "passed",
+      "time" : {
+        "start" : 1605516133592,
+        "stop" : 1605516133614,
+        "duration" : 22
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfb3e17051fc69fe.json",
+  "parameterValues" : [ "4", "'验证码为空，登录失败'", "{'code': 6001, 'msg': '验证码输入错误，请重新输入'}", "{'content-type': 'application/json', 'token': '${token}', 'version': '1.3.0', 'device': 'ios', 'device-id': 'yuanrong-001', 'device-model': 'iphone12', 'device-os-ver': '13.4.1'}", "{'phone': '12345678910', 'smsCode': '', 'deviceId': 'test001'}", "'http://10.113.248.196/api-user/v1/user/login/phone'" ]
+}

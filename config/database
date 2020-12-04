@@ -1,0 +1,6 @@
+[mysql_test]
+host = 10.113.248.196
+port = 3306
+username = shanjutest
+password = shanjut@est9
+basename = juparty-business
