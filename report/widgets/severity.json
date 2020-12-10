@@ -1,80 +1,80 @@
 [ {
-  "uid" : "409689881a46b0b6",
-  "name" : "test_login[2-验证手机号为空，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers1-params1-expect_result1]",
+  "uid" : "32a8397f5c17d32",
+  "name" : "test_appRechargeSubmit[4-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers3-params3-expect_result3]",
   "time" : {
-    "start" : 1605584826353,
-    "stop" : 1605584826535,
-    "duration" : 182
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ba706a5395507fe",
-  "name" : "test_appRechargeSubmit[3-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers2-params2-expect_result2]",
-  "time" : {
-    "start" : 1605584826221,
-    "stop" : 1605584826250,
-    "duration" : 29
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cfb3e17051fc69fe",
-  "name" : "test_login[4-验证码为空，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers3-params3-expect_result3]",
-  "time" : {
-    "start" : 1605584826581,
-    "stop" : 1605584826600,
-    "duration" : 19
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5b19580101cfdc7e",
-  "name" : "test_appRechargeSubmit[2-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers1-params1-expect_result1]",
-  "time" : {
-    "start" : 1605584826186,
-    "stop" : 1605584826216,
+    "start" : 1607571898664,
+    "stop" : 1607571898694,
     "duration" : 30
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2e0715cb1227382f",
-  "name" : "test_appRechargeSubmit[4-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers3-params3-expect_result3]",
-  "time" : {
-    "start" : 1605584826257,
-    "stop" : 1605584826278,
-    "duration" : 21
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ebffe2022b52e8f",
-  "name" : "test_login[1-验证手机号码错误，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers0-params0-expect_result0]",
-  "time" : {
-    "start" : 1605584826285,
-    "stop" : 1605584826347,
-    "duration" : 62
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b35e7f93fcad6b94",
+  "uid" : "2716a5b4ea2f6d8e",
   "name" : "test_login[3-验证码错误，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers2-params2-expect_result2]",
   "time" : {
-    "start" : 1605584826548,
-    "stop" : 1605584826576,
+    "start" : 1607571898856,
+    "stop" : 1607571898876,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d424681ec588e71c",
+  "name" : "test_appRechargeSubmit[3-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers2-params2-expect_result2]",
+  "time" : {
+    "start" : 1607571898633,
+    "stop" : 1607571898657,
+    "duration" : 24
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68f83aa7e080343d",
+  "name" : "test_login[1-验证手机号码错误，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers0-params0-expect_result0]",
+  "time" : {
+    "start" : 1607571898711,
+    "stop" : 1607571898806,
+    "duration" : 95
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d6ab47529102636",
+  "name" : "test_appRechargeSubmit[2-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers1-params1-expect_result1]",
+  "time" : {
+    "start" : 1607571898599,
+    "stop" : 1607571898627,
     "duration" : 28
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "a7d74012798a08ec",
+  "uid" : "7167071a2f338495",
   "name" : "test_appRechargeSubmit[1-充值成功-http://10.113.248.196/api-user/v1/recharge/submit-headers0-params0-expect_result0]",
   "time" : {
-    "start" : 1605584825560,
-    "stop" : 1605584826171,
-    "duration" : 611
+    "start" : 1607571898562,
+    "stop" : 1607571898592,
+    "duration" : 30
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a93450bbc3ca5775",
+  "name" : "test_login[2-验证手机号为空，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers1-params1-expect_result1]",
+  "time" : {
+    "start" : 1607571898812,
+    "stop" : 1607571898850,
+    "duration" : 38
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2d8e0978a3a307d",
+  "name" : "test_login[4-验证码为空，登录失败-http://10.113.248.196/api-user/v1/user/login/phone-headers3-params3-expect_result3]",
+  "time" : {
+    "start" : 1607571898882,
+    "stop" : 1607571898905,
+    "duration" : 23
   },
   "status" : "passed",
   "severity" : "normal"
