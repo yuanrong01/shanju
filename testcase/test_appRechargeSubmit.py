@@ -6,6 +6,7 @@ class TestRechargeSubmit():
     def setup_class(self):
         self.headers_new = get_token()
     re = get_data("testdata","appRechargeSubmit")
+    print(re)
 
     @pytest.mark.parametrize("case_id,case_name,url, headers,params, expect_result", re)
     def test_appRechargeSubmit(self,case_id, case_name, url, headers, params, expect_result):

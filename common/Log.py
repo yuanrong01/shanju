@@ -1,7 +1,8 @@
 # -*- coding:utf-8 -*-
 import logging, time, os
+from logging import handlers
 
-log_path = 'D:\测试数据\接口测试\shanju\Testlog'
+log_path = 'D:\project\shanju\Testlog'
 
 
 class Log:
@@ -9,6 +10,7 @@ class Log:
     def __init__(self):
         #文件命名
         self.logname = os.path.join(log_path,'%s.log' % time.strftime('%Y_%m_%d_%H_%M_%S'))
+
         #创建logger
         self.logger = logging.getLogger()
         #设置日志等级
@@ -18,11 +20,13 @@ class Log:
 
     def __console(self, level, message):
         #创建一个FileHandler,用于写日志到本地（fh = logging.FileHandler(self.logname,'w')）
-        fh = logging.FileHandler(self.logname, 'a', encoding='utf-8')#追加模式
+        fh = logging.FileHandler(self.logname,mode='a', encoding='utf-8')#追加模式
         fh.setLevel(logging.DEBUG)
         fh.setFormatter(self.formatter)
+
         #给logger添加handler
         self.logger.addHandler(fh)
+
         #创建一个streamHandler,用于输出到控制台
         ch = logging.StreamHandler()
         ch.setLevel(logging.DEBUG)
@@ -53,7 +57,7 @@ class Log:
         self.__console('error', message)
 
     def info(self, message):
-
+        print("调用日志")
         self.__console('info', message)
 
 
