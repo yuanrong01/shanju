@@ -156,7 +156,8 @@ dmypy.json
 # IntelliJ project files
 .idea
 #*.iml
-!.gitkeep
+Testlog/README.md
+temple/README.md
 
 
 
