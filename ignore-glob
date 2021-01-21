@@ -156,8 +156,7 @@ dmypy.json
 # IntelliJ project files
 .idea
 #*.iml
-/Testlog/README.md
-/temple/README.md
+
 
 
 
