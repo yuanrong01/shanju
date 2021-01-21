@@ -17,8 +17,6 @@ def julogin():
     }
     url = "http://10.113.248.196/api-user/v1/user/login/phone"
     result = ReqClient.post(url=url,json=data["body"],headers=header)
-    #assert result.json()["result"]["userId"] == expect_result
+    assert result.json()["result"]["userId"] == expect_result
     log.info("测试用例通过,返回参数 ==>> {}".format(result.text))
-    #return result.json()
-
-julogin()
+    return result.json()
