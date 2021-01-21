@@ -7,3 +7,4 @@ def get_token():
    headers["token"] = real_token["token"]
    return headers
 
+get_token()

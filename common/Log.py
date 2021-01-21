@@ -57,7 +57,7 @@ class Log:
         self.__console('error', message)
 
     def info(self, message):
-        print("调用日志")
+
         self.__console('info', message)
 
 
