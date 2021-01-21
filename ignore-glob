@@ -83,7 +83,7 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+#*.log
 local_settings.py
 db.sqlite3
 
@@ -156,9 +156,6 @@ dmypy.json
 # IntelliJ project files
 .idea
 *.iml
-.json
-/Testlog
-/temple
-.csv
+
 
 
