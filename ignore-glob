@@ -157,7 +157,8 @@ dmypy.json
 .idea
 *.iml
 .json
-
+/Testlog
+/temple
 .csv
 out
 gen
